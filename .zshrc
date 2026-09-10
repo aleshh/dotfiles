@@ -77,3 +77,5 @@ dumptext() {
     fi
   done
 }
+
+[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
